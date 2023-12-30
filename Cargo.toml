@@ -1,0 +1,25 @@
+[package]
+name = "rust_blockchainn"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rsa = "0.7.0"
+rand = "0.8.4"
+sha2 = "0.10.8"
+uuid = "1.6.1"
+
+
+[[bin]]
+name = "rust_blockchainn"
+path = "src/bin.rs"
+
+
+[lib]
+name = "Blockchain"
+path = "Blockchain/src/lib.rs"
+
+
+
